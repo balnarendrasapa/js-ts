@@ -13,14 +13,23 @@ if (a === "abc") {
 }
 
 // reading from stdin
-const readline = require('readline');
+// const readline = require('readline');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
 
-rl.question('Enter a number: ', (answer: string) => {
-  console.log(`You entered: ${answer}`);
-  rl.close();
-});
+// rl.question('Enter a number: ', (answer: string) => {
+//   console.log(`You entered: ${answer}`);
+//   rl.close();
+// });
+
+const som: any = "abc"
+
+for (let i in som) {
+    console.log(i)
+}
+for (let i of som) {
+    console.log(i)
+}
