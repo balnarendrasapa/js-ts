@@ -42,3 +42,12 @@ for (let i of arrNums) {
     console.log(i)
 }
 console.log(arrNums.map((x) => x * 2))
+// defining only two types
+
+let arrStrs2: [string, number] = ["abc", 123]
+console.log(arrStrs2)
+
+
+// defining multiple types
+let arrStrs: Array<string|number> = ["abc", "def", "ghi", 123]
+console.log(arrStrs)
