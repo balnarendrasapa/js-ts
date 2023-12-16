@@ -11,10 +11,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 70vh;
+    height: 61vh;
     width: 35vw;
-    background-color: #101010;
     border-radius: 10px;
+    gap: 1vh;
 }
 
 .game > div {
@@ -26,5 +26,4 @@ body {
     height: 20vh;
     width: 10vw;
     border-radius: 10px;
-    margin: 10px;
 }
