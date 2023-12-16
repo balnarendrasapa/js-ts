@@ -1,5 +1,5 @@
 
-// string
+// string interpolation
 let fullName: string = 'Bob Smith';
 fullName = 'John Doe';
 console.log(`Hello, ${fullName}`);
@@ -33,3 +33,12 @@ for (let i in som) {
 for (let i of som) {
     console.log(i)
 }
+
+console.log()
+
+let arrNums: number[] = [11, 22, 33, 44, 55]
+
+for (let i of arrNums) {
+    console.log(i)
+}
+console.log(arrNums.map((x) => x * 2))
