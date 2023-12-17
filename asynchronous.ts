@@ -15,5 +15,9 @@ async function main() {
     console.log("abc");
 }
 
-main();
-console.log("def");
+(async () => {
+    await main();
+    console.log("def");
+})();
+
+console.log("ghi");
