@@ -7,4 +7,4 @@ const student = {
     }
 }
 
-console.log(student.printName);
+console.log(student.printName());
