@@ -18,7 +18,7 @@ class Student {
         this.name = name;
         this.age = age;
     }
-    printName() {
+    printName(): string {
         return this.name;
     }
 }
