@@ -11,6 +11,7 @@ const student = {
 console.log(student.printName());
 
 // can use the keyword 'new' in this case.
+// can only set readonly properties in the constructor.
 class Student {
     private readonly phn: number;
     name: string;
