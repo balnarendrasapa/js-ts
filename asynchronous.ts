@@ -1,22 +1,18 @@
 function getData(id: number){
-    const prom = new Promise<void>((resolve) => { 
+    const prom = new Promise<number>((resolve) => { 
         setTimeout(() => { 
             console.log('Async task started '+ id);
-            resolve(); 
+            resolve(345); 
         }, 4000);
     });
     return prom;
 }
-
 const temp = getData(1);
+console.log(temp);
+async function main() {
 
-function greet(name:string, greeting=undefined) {
-    if (name === undefined || greeting === undefined) {
-        console.log('One or more parameters are undefined');
-    } else {
-        console.log(`${greeting}, ${name}!`);
-    }
+    console.log(await temp);
+    console.log("abc");
 }
 
-greet('John');
-temp.then(() => {});
+main();
