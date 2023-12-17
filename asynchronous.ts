@@ -20,5 +20,3 @@ function greet(name:string, greeting=undefined) {
 
 greet('John');
 temp.then(() => {});
-
-export { };
