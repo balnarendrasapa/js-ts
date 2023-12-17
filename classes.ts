@@ -11,7 +11,6 @@ const student = {
 console.log(student.printName());
 
 // can use the keyword 'new' in this case.
-
 class Student {
     name: string;
     age: number;
@@ -20,10 +19,9 @@ class Student {
         this.age = age;
     }
     printName() {
-        console.log(this.name);
         return this.name;
     }
 }
 
-const student1 = new Student('John', 30);
+const student1 = new Student('John Wick', 30);
 console.log(student1.printName());
